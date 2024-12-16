@@ -1,0 +1,198 @@
+p{
+    font-size: 24px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.wrapper{
+    background-color: #f7f7f7;
+}
+#sidebar1 {
+    float: left;
+    width: 20%;
+    padding: 0 10 px 0 20px;
+}
+#sidebar2{
+    float: right;
+    width: 20%;
+    padding: 0 20px 0 10px;
+}
+#article{
+    background-color: #fafafa;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+    width: 50%;
+}
+#article:after{
+    clear:both;
+    display: table;
+    content:' ';
+}
+header{
+    background-color: #f4f4f4;
+}
+header h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px 30px 30px 10px;
+    clear: both;
+}
+.logo{
+    width: 200px;
+    border-radius: 100%;
+}
+nav {
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+nav li {
+    float: left;
+    list-style: none;
+}
+nav a {
+    display: block;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+}
+nav li:last-child a {
+    border-right: none;
+}
+nav a:hover {
+    font-weight: bold;
+}
+nav:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.txt-left{
+    
+    width: 160px;
+}
+.txt-right{
+
+    margin-left: 180px;
+}
+
+.first{
+    width: 90%;
+}
+
+.text{
+    text-align: center;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.slider-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 3px solid rgb(63, 14, 14);
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: transleteY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    
+
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.map{
+    width: 340px;
+    float: left;
+    margin-right: 8px;
+    border: 3px solid rgb(63, 14, 14);
+    border-radius: 25px;
+}
+.habitat h1{
+    text-align: center;
+    margin: 5px 0px;
+}
+.chart{
+    width: 250px;
+    height: 250px;
+    background: conic-gradient(
+        rgb(166, 208, 158) 54%,
+        rgb(72, 191, 212) 46%
+    );
+    border-radius: 50%;
+    margin: 0 auto;
+  
+}
+.chart-cont{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.chart:hover{
+    transform: scale(1.1);
+}
+#life h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+#life{
+    margin-top: 2%;
+}
+.text-left{
+    float: left;
+    width: 35%;
+}
+.text-right{
+    float: right;
+    width: 35%;
+}
+#sidebar1{
+    height: 100%;
+}
+.sticky-menu{
+    
+}
+footer{
+    border-top: 1px solid #ccc;
+    font-size: .8em;
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}
