@@ -23,7 +23,7 @@ h1{
     padding: 0 20px 0 10px;
 }
 #article{
-    background-color: #DEBE64;
+    background-color: #F2E5C0;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     margin-left: 10%;
@@ -37,7 +37,7 @@ h1{
     content:' ';
 }
 header{
-    background-color: #bd7318;
+    background-color: #E38F46;
 }
 
 header h1 {
@@ -239,4 +239,5 @@ footer{
     text-align: center;
     padding: 10px 10px 30px 10px;
     background-color: #bd7318;
+
 }
